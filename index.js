@@ -1,6 +1,5 @@
 function isPalindrome(word) {
   // Write your algorithm here
-  
  for(let a =0 ; a < word.length/2 ; a++){
   const z = word.length -1 - a;
   const letterStart = word[a];
@@ -14,24 +13,20 @@ function isPalindrome(word) {
 
 }
 
-/* 
-  Add your pseudocode here
-  Write code that will check if the index position of a letter on both ends of a word coming inwards and xheck if they will match
-  iterete from the beginning to the middle of the word.
-  describe a variable to represent the letters
-  use a if statement which returns false when the letters do not match
-*/
-// 
-// 
- 
-
 /*
-  Add written explanation of your solution here
-*/
+Problem Solving Approach
+Use the problem solving process Links to an external site.described in the previous lesson to come up with an approach to the problem and write your solution:
 
-// You can run `node index.js` to view these console logs
+Rewrite the Problem in Your Own Words
+Write Your Own Test Cases
+Pseudocode
+Code
+Make It Clean and Readable
+Optimize
+
+*/
 if (require.main === module) {
-  // add your own custom tests in here
+
   console.log("Expecting: true");
   console.log("=>", isPalindrome("racecar"));
 
